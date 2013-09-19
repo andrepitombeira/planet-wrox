@@ -15,15 +15,19 @@
         color: #000000;
       }
     </style>
+    <link href="Styles/Styles.css" rel="stylesheet" type="text/css" />
+    <script src="Scripts/modernizr-2.6.2.js"></script>
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-    
-      <h1>Hi there visitor and welcome to Planet Wrox</h1>
-      <p>
-        We&#39;re glad you&#39;re <span class="auto-style1">paying a visit </span><span class="auto-style2">to <a href="http://www.planetwrox.com">www.planetwrox.com</a> the coolest music community site on the Internet.</span></p>
-    
+    <div id="PageWrapper">
+      <header>Header Goes Here</header>
+      <nav>Menu Goes Here</nav>
+      <section id="MainContent">
+        <h1>Hi there visitor and welcome to Planet Wrox</h1>
+       </section>
+      <aside id="Sidebar">Sidebar Goes Here</aside>
+      <footer>Footer Goes Here</footer>
     </div>
     </form>
 </body>
