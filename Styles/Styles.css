@@ -26,12 +26,32 @@ nav
   width: 844px;
 }
 
+/*#region Main Content */
+
 section#MainContent
 {
   width: 664px;
   float: left;
 }
 
+  section#MainContent a
+  {
+    color: #4cff00;
+    text-decoration: underline;
+  }
+
+    section#MainContent a:visited
+    {
+      color: #ff0000;
+      text-decoration: underline;
+    }
+
+    section#MainContent a:hover
+    {
+      color: #ffa500;
+      text-decoration: underline;
+    }
+/*#endregion*/
 aside
 {
   background-color: gray;

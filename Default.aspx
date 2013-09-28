@@ -24,7 +24,7 @@
       <header>Header Goes Here</header>
       <nav>Menu Goes Here</nav>
       <section id="MainContent">
-        <h1>Hi there visitor and welcome to Planet Wrox</h1>
+        <h1 style="padding: 0; margin: 0 0 10px 0">Hi there visitor and welcome to <a href="Default.aspx">Planet</a> Wrox</h1>
        </section>
       <aside id="Sidebar">Sidebar Goes Here</aside>
       <footer>Footer Goes Here</footer>
